@@ -170,6 +170,24 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "2e3ft7jslsylx0oo",
+      "type": "income",
+      "name": "cake",
+      "sum": 5000,
+      "account_id": "2e3ftft8lsxmvibh",
+      "user_id": "2e3ftn2clsun64rw",
+      "created_at": "2024-02-23T12:06:53.879Z"
+    },
+    {
+      "id": "2e3ft5xclsylysnz",
+      "type": "income",
+      "name": "salary",
+      "sum": 10000,
+      "account_id": "2e3ftft8lsxmvibh",
+      "user_id": "2e3ftn2clsun64rw",
+      "created_at": "2024-02-23T12:08:16.798Z"
     }
   ]
 }

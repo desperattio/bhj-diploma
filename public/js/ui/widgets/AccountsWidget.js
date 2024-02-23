@@ -103,7 +103,7 @@ class AccountsWidget {
     const accHTML = `<li class="active account" data-id="${item.id}">
     <a href="#">
       <span>${item.name} /</span>
-      <span>${item.sum} ₽</span>
+      <span>${(item.sum).toLocaleString('en')} ₽</span>
     </a>
     </li>`;
     return accHTML;

@@ -166,7 +166,7 @@ class TransactionsPage {
     <div class="col-md-3">
       <div class="transaction__summ">
       <!--  сумма -->
-          ${item.sum} <span class="currency">₽</span>
+          ${(item.sum).toLocaleString('en')} <span class="currency">₽</span>
       </div>
     </div>
     <div class="col-md-2 transaction__controls">
